@@ -1,0 +1,82 @@
+.Land{
+    text-align: center;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    /* margin-top: 10%; */
+    background-image: url('../Asserts//backgroundhome01.jpg'); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #efefbb;
+    text-shadow: #8ca6db;
+    
+}
+
+.Container123{
+    /* margin: auto; */
+    background-color: white(139, 84, 84);
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    color: red;
+    /* background: linear-gradient(to right, #b993d6, #8ca6db); */
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.Container123::-webkit-scrollbar {
+    display: none;
+    }
+
+@media screen and (max-width: 579px) {
+    .Land{
+        height: 100vh;
+        width: 100vw;
+    }
+}
+
+.headings{
+    margin-top: 18%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Buttonforhome{
+    width: 1oovw;
+   padding-top: 2%;
+}
+
+.Buttonforhome a button{
+    height: 100%;
+    width: 10vw;
+    border-radius: 30% 30%;
+}   
+
+.Buttonforhome a{
+    padding: 2%;
+}
+
+.social{
+    position: sticky;
+    background-image: url('../Asserts/background001.jpg');
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    color: antiquewhite;
+    /* position: sticky; */
+}
+.about{
+    background-color: green;
+    height: 50%;
+    width: 100%;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.792);
+    height: 30%;
+    width: 100%;
+    color: wheat;
+    padding-top: 3%;
+}
