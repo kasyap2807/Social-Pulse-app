@@ -7,9 +7,10 @@ Social Pulse app using Java Spring Boot, MySQL, and ReactJs
 
 >>> Go to Client/app and use npm install
  to install All npm's
+>>>  npm start 
 
 ### BackEnd
->>>  Go t0 Server\src\main\java\com\hub\server and run Application.java
+>>>  Go to Server\src\main\java\com\hub\server and run Application.java
 
 ## used packages
 
